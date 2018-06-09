@@ -1,9 +1,43 @@
-@import "../stylesheets/base/_breakpoint.scss";
-@import "../stylesheets/branding/_typography.scss";
-@import "../stylesheets/branding/_colors.scss";
-@import "../stylesheets/layouts/_header.scss";
-@import "../stylesheets/layouts/_overview.scss";
-@import "../stylesheets/layouts/_page.scss";
-@import "../stylesheets/layouts/_footer.scss";
-@import "../stylesheets/layouts/_contact.scss";
-@import "../stylesheets/base/_normalize.scss";
+@import "./base/_breakpoint.scss";
+@import "./branding/_typography.scss";
+@import "./branding/_colors.scss";
+@import "./layouts/_header.scss";
+@import "./layouts/_overview.scss";
+@import "./layouts/_page.scss";
+@import "./layouts/_footer.scss";
+@import "./layouts/_contact.scss";
+@import "./base/_normalize.scss";
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+h1 {
+    font-size: 4.5rem;
+    line-height: 1.15rem;
+    font-family: $ubuntu;
+}
+
+h2 {
+    font-size: 1.875rem;
+    line-height: 1.15rem;
+    font-family: $lato;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: $lato;
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.15rem;
+    font-family: $sourcesanspro
+}
